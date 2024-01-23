@@ -32,4 +32,4 @@ class wagner_fischer():
                 else:
                     matrix[row].append(min(tri) + 1)
 
-        print(matrix[len(possible)][len(word)])
+        return matrix[len(possible)][len(word)]
