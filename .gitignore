@@ -1,2 +1,5 @@
 src/wagner/__pycache__/__main__.cpython-38.pyc
 src/wagner/__pycache__/algo.cpython-38.pyc
+tests/__pycache__/test_one.cpython-38.pyc
+tests/__pycache__/__main__.cpython-38.pyc
+src/wagner/__pycache__/__init__.cpython-38.pyc
