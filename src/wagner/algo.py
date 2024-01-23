@@ -18,7 +18,7 @@ class wagner_fischer():
         for row in range(0, len(word) + 1):
             matrix[0].append(row)
 
-        for column in range(1, len(word) + 1):
+        for column in range(1, len(possible) + 1):
             matrix[column].append(column)
 
         for row in range(1, len(matrix)):
