@@ -9,8 +9,7 @@ class wagner_fischer():
         possible = input("Possible Word: ")
         return word, possible
 
-    def wagner(self):
-        word, possible = self.manual_input()
+    def wagner(self, word, possible):
 
         matrix = []
         matrix = [[] for _ in range(len(possible) + 1)]
