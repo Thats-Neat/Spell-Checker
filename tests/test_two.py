@@ -8,14 +8,14 @@ sys.path.append(functionPath)
 
 from wagner.algo import wagner_fischer
 
-def testOne():
+def testTwo():
 
     ex_output = 3
 
     start_time = time.time()
 
     instance = wagner_fischer()
-    output = instance.wagner("float", "boats")
+    output = instance.wagner("saturday", "sunday")
 
     end_time = time.time()
 
@@ -24,4 +24,4 @@ def testOne():
             f"{__file__} ({instance.wagner.__qualname__}) (Took {end_time-start_time:.5f}s) (Expected: {ex_output} -> Got: {output}) - PASS")
     else:
         print(
-            f"{__file__}  ({instance.__qualname__}) (Took {end_time-start_time:.5f}s) (Expected: {ex_output} -> Got: {output}) - FAILED")
+            f"{__file__} ({instance.__qualname__}) (Took {end_time-start_time:.5f}s) (Expected: {ex_output} -> Got: {output}) - FAILED")
