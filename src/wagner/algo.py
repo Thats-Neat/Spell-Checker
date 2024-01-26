@@ -5,11 +5,14 @@ class wagner_fischer():
         pass
 
     def manual_input(self):
-        word = input("Misspelled Word: ")
-        possible = input("Possible Word: ")
+        word = input("Word One: ")
+        possible = input("Word Two: ")
         return word, possible
 
     def wagner(self, word, possible):
+        
+        word = word.lower()
+        possible = possible.lower()
 
         matrix = []
         matrix = [[] for _ in range(len(possible) + 1)]
