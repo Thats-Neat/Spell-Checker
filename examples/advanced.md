@@ -4,11 +4,9 @@
 Current File Path: Spell-Checker/src
 
 > Windows (Powershell)
-cd src
 python fix
 
 > Mac/Linux
-cd src
 python3 fix
 ```
 
