@@ -4,11 +4,9 @@
 Current File Path: Spell-Checker/src
 
 > Windows (Powershell)
-cd src
 python wagner
 
 > Mac/Linux
-cd src
 python3 wagner
 ```
 
